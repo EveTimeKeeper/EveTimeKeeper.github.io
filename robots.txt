@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://evetimekeeper.github.io/EveTimeKeeper.github.io/sitemap.xml
