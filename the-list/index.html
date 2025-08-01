@@ -17,17 +17,12 @@
       hoverTimer = setTimeout(() => {
         // Step 1: slide left
         logo.classList.add('slide-left');
-
-        // Step 2: after sliding, fade out
-        setTimeout(() => {
-          logo.classList.add('fade-out');
-        }, 5000); // wait for slide (matches transition)
-
+    
         // Step 3: hide completely after fade
         setTimeout(() => {
           logo.style.display = 'none';
           localStorage.setItem('logo-gone-date', today);
-        }, 5500); // 500ms after fade starts
+        }, 3000); // 500ms after fade starts
       }, 14000); // wait 14 seconds hover
     });
 
